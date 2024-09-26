@@ -1,6 +1,4 @@
-Here’s a template for a proper `README.md` file to accompany your project:
-
-```markdown
+```
 # Automated Daily Stripe Payouts
 
 This Python script automates daily payouts from your Stripe account to a connected bank account in Indian Rupees (INR). It uses the Stripe API to initiate a payout at 1 PM IST every day. The script is designed to be run in conjunction with a task scheduler like `cron` or Windows Task Scheduler.
