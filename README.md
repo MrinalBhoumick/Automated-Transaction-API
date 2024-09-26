@@ -3,13 +3,13 @@
 
 This Python script automates daily payouts from your Stripe account to a connected bank account in Indian Rupees (INR). It uses the Stripe API to initiate a payout at 1 PM IST every day. The script is designed to be run in conjunction with a task scheduler like `cron` or Windows Task Scheduler.
 
-## Features
+### Features
 - Automates payouts in INR to a connected bank account.
 - Uses the Stripe API for secure transactions.
 - Daily execution at a specified time (1 PM IST) through task scheduling.
 - Handles environment variables securely using a `.env` file.
 
-## Requirements
+### Requirements
 
 ### 1. Python Libraries
 The script relies on the following Python libraries:
